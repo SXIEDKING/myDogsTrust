@@ -1,0 +1,14 @@
+body{background-color:white;
+display: flex;
+}
+
+.Card
+{
+    color: red;
+    background-color: black;
+    width:400px;
+    height:300px;
+    padding:5px;
+    margin:5px;
+
+}
