@@ -1,5 +1,6 @@
 body{background-color:white;
 display: flex;
+flex-wrap: wrap;
 }
 
 .Card
@@ -8,7 +9,5 @@ display: flex;
     background-color: black;
     width:400px;
     height:300px;
-    padding:5px;
-    margin:5px;
 
 }
