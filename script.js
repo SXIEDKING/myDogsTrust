@@ -5,10 +5,10 @@ let dogs=[]
 
 dogs.push({name:"Fluffy",breed:"Poodle",picture:"",age:7})
 dogs.push({name:"Otto",breed:"Chihuahua",picture:"",age:8})
-dogs.push({name:"Padre",breed:"Greyhound",picture:"",age:9})
-dogs.push({name:"Louwee",breed:"American Pitbull Terrier",pictures:"",age:9})
-dogs.push({name:"Snoopy",breed:"Husky",pictures:"",age:9})
-dogs.push({name:"Kaiser",breed:"German Sheperd",pictures:"",age:9})
+dogs.push({name:"Padre",breed:"Greyhound",picture:"",age:6})
+dogs.push({name:"Louwee",breed:"American Pitbull Terrier",pictures:"",age:8})
+dogs.push({name:"Snoopy",breed:"Husky",pictures:"",age:7})
+dogs.push({name:"Kaiser",breed:"German Sheperd",pictures:"",age:7})
 
 //6 dogs - on 300*400 pixel cards (with nice padding and margins, and a nice background colour)
 // An image for each dog
@@ -46,5 +46,5 @@ for (let i=0; i<dogs.length; i++){
     dogPicture.innerHTML = dogs[i].picture
 
     dogAge.innerHTML = dogs[i].age
-}
+} 
 
