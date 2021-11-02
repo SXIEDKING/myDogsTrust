@@ -1,15 +1,56 @@
-body{background-color:white;
-display: flex;
-flex-wrap: wrap;
+body{background-color: rgb(255, 251, 251);}
+
+#cardholder{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.Card
-{
-    color: red;
-    background-color: black;
-    width:400px;
-    height:300px;
-    display: flex;
-    flex-wrap: wrap;
+.mainHeader {
+    text-align: center;
+    font-family: Helvetica;
+    text-decoration: underline;
+    font-size: 40px;
+}
 
+h1 {
+    text-align: center;
+}
+
+form {
+    border:8px solid white;
+    background-color: yellow;
+    width: 20vw;
+    height: 42vh;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.drop-zone {
+    width: 15vw;
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px dashed black;
+}
+
+.drop-zone--over {
+opacity: 0.5;
+}
+
+#drag {
+    width: 12vw;
+    height: 12vh; 
+}
+
+img {
+    z-index: -1;
+    width: 15vw;
+    height: 15vh;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
 }
