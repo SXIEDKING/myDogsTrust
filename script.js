@@ -339,7 +339,7 @@ function addDog(ev){
             dogName.style.backgroundColor = "purple"
             
             document.body.style.backgroundColor = "violet" //Changes background colour
-            card.style.backgroundColor = "white--" //Changes colour of the card
+            card.style.backgroundColor = "white" //Changes colour of the card
             let dogBreed = document.createElement("h2")
             card.appendChild(dogBreed)
         
